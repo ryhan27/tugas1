@@ -10,13 +10,13 @@ void main() {
   print(diskon);
   print(diantarKeKos);
   
-  // nyobain gabungin teks sama variabel pake dolar
+  // coba gabungin teks sama variabel pake dolar
   print('Pesanan laundry atas nama $namaPelanggan, seberat $beratBaju kg');
 
-  // ini tipe data (?) yg boleh kosong (dikasih tanda tanya)
+  // ini tipe data (?) yg boleh kosong (?)
   String? requestPewangi = 'Pewangi rasa lavender, banyakan dikit';
   print(requestPewangi);
-  requestPewangi = null; // eh tiba-tiba orangnya ganti pikiran atau lupa
+  requestPewangi = null; // kalo ada orangnya ganti pikiran atau lupa
   print(requestPewangi);
 
   // nyobain tanda tanya dua (??) buat ngasih teks default kalo datanya null
@@ -45,7 +45,7 @@ void main() {
     'Cuci Kering',
     'Setrika',
   ];
-  jenisLayanan.add('Lipat Rapi'); // nambahin layanan baru 
+  jenisLayanan.add('Lipat Rapi'); // nambah layanan baru 
   print(jenisLayanan);
 
   // (set) buat jenis bahan baju, datanya ga boleh kembar
