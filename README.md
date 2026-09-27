@@ -1,6 +1,6 @@
 # Tugas 1 Pengenalan Dart
 
-Tugas 1 pengenalan Dart, saya bikin program kasir buat jasa laundry.
+Tugas 1 saya bikin program kasir buat jasa laundry.
 
 * Tipe data utama (String, int, double, bool) saya pake buat nyatet nama pelanggan, berat timbangan, dan lain-lain.
 * String interpolation (nyisipin variabel langsung ke dalam kalimat cuma pake simbol $).
